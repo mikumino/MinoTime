@@ -1,0 +1,63 @@
+/* Background styles */
+QWidget {
+    background-color: #27282D;
+    color: #333333;
+}
+
+/* Label styles */
+QLabel {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Line edit styles */
+QLineEdit {
+    border-radius: 15px;
+    border: 2px solid #3b3d42;
+    padding: 5px;
+    background-color: #52545B;
+    color: #ffffff;
+}
+
+/* Button styles */
+QPushButton {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FF3F3F;
+    color: white;
+}
+
+QPushButton:hover {
+    background-color: #ff2020;
+}
+
+/* Date edit styles */
+QDateEdit {
+    border-radius: 15px;
+    border: 2px solid #3b3d42;
+    padding: 5px;
+    background-color: #52545B;
+    color: #ffffff;
+}
+
+QDateEdit QAbstractItemView {
+    background-color: #52545B;
+    color: #ffffff;
+    selection-background-color: #FF3F3F;
+    selection-color: #ffffff;
+}
+
+/* Calendar widget styles */
+QCalenderWidget QTableView {
+    alternate-background-color: #52545B;
+}
+
+/* Text edit styles */
+QTextEdit {
+    border-radius: 15px;
+    border: 2px solid #3b3d42;
+    padding: 5px;
+    background-color: #52545B;
+    color: #ffffff;
+}

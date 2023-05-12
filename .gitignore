@@ -1,0 +1,14 @@
+# Compiled python files
+*.pyc
+__pycache__/
+
+# Token file
+token.json
+
+# Editor files
+.vscode/
+.idea/
+
+# System or IDE files
+.DS_Store
+Thumbs.db
