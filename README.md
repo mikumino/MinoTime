@@ -21,7 +21,7 @@ pip install -r requirements.txt
 Once you have installed Python and the required dependencies, you can run the project by running the following command in your terminal:
 
 ```
-python [main.py](http://main.py/)
+python main.py
 ```
 
 Right now, the API log in screen doesn’t actually take in anything, the token is just read from a token.json file that needs to be created by the user. :P
